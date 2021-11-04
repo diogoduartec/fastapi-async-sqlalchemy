@@ -23,7 +23,15 @@ Install python dependencies
 pipenv install
 ```
 
+Populate database
+```shell
+python populate.py
+```
+
 Start application
 ```shell
 uvicorn main:app --port 8080
 ```
+
+## Compare sync and async views
+There are two versions of assets/day_summary endpoint, so you can compare both performance.
