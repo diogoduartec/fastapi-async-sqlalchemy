@@ -1,5 +1,8 @@
 # FASTAPI INTRODUCTION
-**Fastapi, Postgres, Async Sqlalchemy, Async requests with Aiohttp**
+
+**FastAPI, PostgreSQL, Async SQLAlchemy, Async requests with AIOHTTP**
+
+Video code on youtube: https://www.youtube.com/watch?v=1CZZAhwqyco
 
 ## Dependecies
 * Docker
