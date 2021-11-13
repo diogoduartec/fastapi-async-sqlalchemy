@@ -11,6 +11,8 @@ Video code on youtube: https://www.youtube.com/watch?v=1CZZAhwqyco
 * Pipenv
 
 ## How to run
+Add project path at `PYTHONPATH` variable in `.env` file.
+
 Start **postgres** database and **pgadmin**
 ```shell
 docker-compose up -d
