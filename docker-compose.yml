@@ -11,7 +11,7 @@ services:
             POSTGRES_USER: ${PG_USER}
             POSTGRES_DB: ${PG_DB}
         volumes:
-            - ./pgdata:/var/lib/postgresql/data
+            - /var/cache/pgdata:/var/lib/postgresql/data
 
     pgadmin:
         image: dpage/pgadmin4
